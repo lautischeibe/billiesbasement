@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Billie;
+    font-family: Billie2;
     src: url(/fonts/Plain\ Germanica.ttf);
 }
 
@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: Billie2;
-    src: url(/fonts/GotikaBlack_PERSONAL_USE_ONLY.otf);
+    font-family: Billie1;
+    src: url(fonts/GotikaBlack_PERSONAL_USE_ONLY.otf);
 }
 
 * {
@@ -22,7 +22,7 @@
 body {
     font-family: Billie2;
     font-size: 16px;
-    background-image: url(/img/Lady-Gaga---2020---02.jpg);
+    background-image: url(img/Lady-Gaga---2020---02.jpg);
     background-attachment: fixed;
     background-position: right;
     background-size: cover;
@@ -33,7 +33,7 @@ header {
     font-family: Billie2;
     width: 100%;
     height: 100vh;
-    background-image: url(/img/skewed.png);
+    background-image: url(img/skewed.png);
     background-attachment: fixed;
     background-position: 0px 0px 30px 30px;
     background-size: cover;
