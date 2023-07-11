@@ -1,0 +1,549 @@
+@font-face {
+    font-family: Billie;
+    src: url(/fonts/Plain\ Germanica.ttf);
+}
+
+@font-face {
+    font-family: Gaga;
+    src: url(/fonts/LICENSE\ PLATE\ USA.ttf);
+}
+
+@font-face {
+    font-family: Billie2;
+    src: url(/fonts/GotikaBlack_PERSONAL_USE_ONLY.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Billie2;
+    font-size: 16px;
+    background-image: url(/img/Lady-Gaga---2020---02.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+}
+
+header {
+    font-family: Billie2;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/skewed.png);
+    background-attachment: fixed;
+    background-position: 0px 0px 30px 30px;
+    background-size: cover;
+    position: static;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+header .textos {
+    margin-top: 152px;
+}
+
+header .titulo {
+    font-size: 85px;
+    text-shadow: black 0 -3px;
+}
+
+header .subtitulo {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.headersection {
+    font-family: Billie2;
+    width: 100%;
+    height: 60%;
+    background-image: url(/img/skewed.png);
+    background-attachment: fixed;
+    background-position: 0px 0px 30px 30px;
+    background-size: cover;
+    position: static;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 250px;
+    font-size: 120px;
+    color: white;
+    user-select: none;
+    text-shadow: black 0 -3px;
+}
+
+.navigation {
+    position: static;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: black 0 -2px;
+}
+
+.navigation a {
+    position: static;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    background-color: #fff;
+    color: black;
+}
+
+main .acerca-de {
+    background-color: whitesmoke;
+}
+
+main .acerca-de .contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+main .acerca-de .sobre-nosotros {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    height: auto;
+}
+
+main .acerca-de .slogan {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main .acerca-de .parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: black;
+}
+
+main .acerca-de .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+main .galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+
+/*Galeria de imagenes, acomodar posicion imagenes*/
+main .galeria .imagenes {
+    width: 20%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+main .galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .galeria .img1 {
+    position: relative;
+
+    width: 20%;
+}
+
+main .galeria .img2 {
+    position: relative;
+
+    width: 20%;
+}
+
+main .galeria .img3 {
+    position: relative;
+
+    width: 20%;
+}
+
+main .galeria .img4 {
+    position: relative;
+
+    width: 20%;
+}
+
+main .galeria .img5 {
+    position: relative;
+
+    width: 20%;
+}
+
+main .miembros {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+main .miembros .contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+main .miembros .sobre-nosotros {
+    text-align: center;
+    font-size: 56px;
+    text-shadow: whitesmoke 0 -2px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    height: auto;
+}
+
+main .miembros .slogan {
+    font-size: 24px;
+    font-weight: 300;
+    text-shadow: black 0 -2px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main .miembros .parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-shadow: whitesmoke 0 -2px;
+    text-align: justify;
+    line-height: 24px;
+    color: crimson;
+}
+
+main .miembros .cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .miembros .cards .card {
+    margin: 20px 0;
+    background-color: white;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0px black;
+}
+
+main .miembros .cards .card img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+    border-color: crimson;
+}
+
+main .fondo {
+    /* height: 900px; */
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    /* padding-top: 130px; */
+}
+
+main .fondo .contenedorpatro {
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+    backdrop-filter: blur(5px);
+}
+
+main .fondo .titulo-patrocinadores {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: #fff;
+    height: auto;
+    /* margin-top: 50px; */
+    text-shadow: black 0 -2px;
+    backdrop-filter: blur(30px);
+}
+
+main .fondo .subtitulo-patrocinadores {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+    text-shadow: black 0 -2px;
+    backdrop-filter: blur(30px);
+}
+
+main .fondo .clientes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    color: #fff;
+    width: 100%;
+    justify-content: space-evenly;
+    border-color: 1px solid white;
+    backdrop-filter: blur(15px);
+}
+
+/* LOGIN HOME */
+
+
+.acerca-de-login {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+    /* margin-top: 100px; */
+    overflow: hidden;
+    padding: 40px;
+    font-family: Billie2;
+}
+
+section article .titulo-login {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    color: black;
+    text-shadow: white 0 -1px;
+}
+section .footercontact form label{
+    font-size: 20px;
+    text-align: center;
+} 
+section .footercontact form input {
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    color: black;
+    background: grey;
+    border-top: 1px solid grey;
+}
+
+section .footercontact form input:focus {
+    border-top: 1px solid black;
+}
+
+.footercontact form .submitlogin {
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    border: none;
+    color: black;
+
+}
+
+footer .socialmedia {
+    color: white;
+    backdrop-filter: blur(10px);
+    font-size: 40px;
+    width: 100%;
+    text-shadow: black 0 -1.5px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    letter-spacing: 20px;
+    bottom: 0px;
+    /* Posiciona el elemento al principio del contenedor */
+}
+
+footer .socialmedia i {
+    letter-spacing: 20px;
+}
+
+.socialmediaindex {
+    backdrop-filter: blur(5px);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: black 0 -1px;
+}
+
+.socialmediaindex i {
+    letter-spacing: 50px;
+}
+
+.socialmediaindex i:hover {
+    color: fuchsia;
+}
+
+footer .socialmedia i:hover {
+    color: fuchsia;
+}
+
+/*About Page*/
+.acerca-de {
+    background-color: whitesmoke;
+}
+
+.acerca-de .contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+.acerca-de .sobre-nosotros {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    height: auto;
+}
+
+.acerca-de .slogan {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.acerca-de .parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: black;
+}
+
+.aboutsocialmedia {
+    color: white;
+    backdrop-filter: blur(10px);
+    font-size: 40px;
+    width: 100%;
+    text-shadow: black 0 -1.5px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    letter-spacing: 20px;
+    bottom: 0px;
+}
+
+footer .aboutsocialmedia i:hover {
+    color: fuchsia;
+}
+
+/* Contact Page */
+
+/* .contenedorcontactus {
+    width: 100%;
+padding-top: 0;
+    height: auto;
+    overflow: hidden;
+padding: 52px 0; 
+margin-top: -100px;
+    backdrop-filter: blur(10px);
+}  */
+
+.contenedorcontactus .titulo-footercontact {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: black;
+    text-shadow: grey 0 -1px;
+}
+
+.contenedorcontactus .footercontact form {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.contenedorcontactus .footercontact form input {
+    width: 45%;
+    padding: 13px;
+    border: none;
+    color: black;
+    background: grey;
+    margin-bottom: 16px;
+    border-top: 1px solid grey;
+}
+
+.contenedorcontactus .footercontact form input:focus {
+    border-top: 1px solid black;
+}
+
+.contenedorcontactus .footercontact form textarea {
+    display: block;
+    width: 100%;
+    max-width: 95%;
+    min-width: 95%;
+    max-height: 200px;
+    min-height: 200px;
+    background: grey;
+    padding: 13px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.contenedorcontactus .footercontact form textarea:focus {
+    border-top: 1px solid grey;
+}
+
+.contenedorcontactus .footercontact form .submit {
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: black;
+    font-family: Billie2;
+}
+
+.socialmediacontacts {
+    color: white;
+    backdrop-filter: blur(10px);
+    font-size: 40px;
+    width: 100%;
+    text-shadow: black 0 -1.5px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    letter-spacing: 20px;
+    bottom: 0px;
+}
