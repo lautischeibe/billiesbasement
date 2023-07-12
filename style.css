@@ -25,7 +25,6 @@ header {
     height: 100vh;
     background-image: url(./img/fondoindex.png);
     background-attachment: fixed;
-    background-position: 0px 0px 30px 30px;
     background-size: cover;
     position: static;
     overflow: hidden;
